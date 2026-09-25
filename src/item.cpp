@@ -6,7 +6,6 @@
 Item items[MAX_ITEMS];
 int itemCount = 0;
 
-//add item function
 void addItem(const char* name, const char* category, int qty, float price) {
     Item it;
     it.id = itemCount + 1;
