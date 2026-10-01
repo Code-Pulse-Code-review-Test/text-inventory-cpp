@@ -12,6 +12,8 @@ void monthlySales();
 void stockValue();
 void printLabel(int id);
 
+
+//main
 int main() {
     char name[NAME_LEN];
     char category[10];
